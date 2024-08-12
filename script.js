@@ -24,15 +24,11 @@ timeline.from("main h1 span",{
 	ease:"elastic",
 	
 },"same")
-/*timeline.from("main #photo",{
-	delay:1.5,
-	scale:0,
-	opacity:0,
-	duration:2,
-	stagger:0.1,
-	ease:"bounce",
-	
-},"same")*/
+
+
+
+
+
 
 
 
@@ -95,7 +91,7 @@ gsap.from("#page4 #skills-logo img",{
 	scale:0,
 	duration:0.5,
 	opacity:0,
-	stagger:0.3,
+	stagger:0.2,
 	scrollTrigger:{
 		trigger:"#page4",
 		scroller:"body",
@@ -110,7 +106,7 @@ gsap.from("#contact h1",{
 	scrollTrigger:{
 		trigger:"#contact",
 		scroller:"body",
-		start:"top 80%;",
+		start:"top 70%;",
 		
 	}
 })
@@ -123,7 +119,7 @@ gsap.from("#contact p",{
 	scrollTrigger:{
 		trigger:"#contact",
 		scroller:"body",
-		start:"top 5%;",
+		start:"top 100%;",
 		
 		
 	}

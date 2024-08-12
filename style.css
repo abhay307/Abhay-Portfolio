@@ -38,6 +38,10 @@ header #social-media i{
 	display:flex;
 	gap:15px;
 }
+#social-media a{
+	text-decoration:none;
+	color:white;
+}
 main {
 	height:calc(100% - 152px);
 	width:100%;
@@ -55,15 +59,42 @@ main h1 #heck{
 }
 main #photo{
 	height:450px;
-	width:68%;
+	width:1020px;
 	margin-top:30px;
 	overflow:hidden;
 	text-align:center;
-	background:pink;
 	z-index:1;
+	background-image:url("img/bannerabhyalast.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top ;
+	filter:grayscale(0.55);
+	
 	
 }
-
+#photo h1{
+	font-size:65px;
+	font-family:Georgia;
+	color:white;
+	width:40%;
+	margin:0 auto;
+	background:#0000009e;
+	position:relative;
+	bottom:180px;
+	line-height:55px;
+	text-align:center;
+	padding:15px 20px;
+	display:flex;
+	flex-direction:column;
+}
+#photo h1 span{
+	font-size:65px;
+}
+#photo h1 #span1{
+	font-size:55px;
+	text-align:center;
+	
+}
 
 
 
@@ -137,9 +168,59 @@ main #photo{
 	width:130px !important; 
 }
 
+#page5 {
+	padding:80px 100px;
+	background-color:#000000;
+}
+#page5 h1{
+	font-size:60px;
+	font-family:tahoma;
+}
+#page5 .artwork{
+	display:flex;
+	justify-content:space-between;
+	gap:50px;
+	padding:60px 0px;
+}
+#page5 .artwork-1{
+	height:350px;
+	width:700px;
+	background-image:url("img/work1.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+	
+}
+#page5 .artwork-1 a {
+}
+#page5 span{
+	color:seagreen;
+}
+#page5 .artwork-2{
+	height:350px;
+	width:700px;
+	background-image:url("img/work2.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+}
+#page5 .artwork-1:hover{
+	transform:scale(1.05);
+}
+#page5 .artwork-2:hover{
+	transform:scale(1.05);
+}
+#page5 h2 a{
+	font-size:40px;
+	font-family:Georgia;
+	color:seagreen;
+	text-decoration:none;
+}
+
 #contact{
 	padding:80px 40px 20px 40px;
 	text-align:center;
+	background-color:#222222;
 }
 #contact h1{
 	font-size:123px;
@@ -198,9 +279,8 @@ header #social-media i{
 	margin-left:30px;
 }
 main {
-	height:calc(100% - 152px);
+	height:calc(100% - 252px);
 	width:100%;
-	
 }
 
 main h1{
@@ -212,20 +292,36 @@ main h1{
 main h1 #heck{
 	color:seagreen;
 }
-main #photo{
-	height:400px;
-	width:75%;
-	margin-top:30px;
-	overflow:hidden;
+
+
+#photo h1{
+	font-size:65px;
+	font-family:Georgia;
+	color:white;
+	width:100%;
+	margin:0 auto;
+	background:#0000009e;
+	position:relative;
+	bottom:145px;
+	line-height:55px;
 	text-align:center;
-	background:pink;
-	z-index:1;
+	padding:15px 20px;
+	display:flex;
+	flex-direction:column;
+}
+#photo h1 span{
+	font-size:45px;
+}
+#photo h1 #span1{
+	font-size:35px;
+	text-align:center;
 	
 }
+
 #page2{
-	padding:30px 0px;
-	margin-top:150px;
-	
+	padding:0px 0px;
+	margin-top:80px;
+
 }
 #move{
     background-color:seagreen;
@@ -246,11 +342,11 @@ main #photo{
     transform: translate(-100%);
 }
 .marque h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 #page3{
-	padding-bottom:60px;
+	padding:60px 0px;
 }
 
 #page3 h1{
@@ -284,7 +380,7 @@ main #photo{
 	
 }
  #skills-logo img{
-	width:100px;
+	width:90px;
 	object-fit:cover ;
 	background-color:white;
 	padding:10px;
@@ -293,6 +389,56 @@ main #photo{
 #github{
 	object-fit:cover ;
 	width:100px !important; 
+}
+
+#page5 {
+	padding:80px 30px;
+	background-color:#000000;
+}
+#page5 h1{
+	font-size:40px;
+	font-family:tahoma;
+}
+#page5 .artwork{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	gap:50px;
+	padding:60px 0px;
+}
+#page5 .artwork-1{
+	height:200px;
+	width:330px;
+	background-image:url("img/work1.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+	
+}
+#page5 .artwork-1 a {
+}
+#page5 span{
+	color:seagreen;
+}
+#page5 .artwork-2{
+	height:200px;
+	width:330px;
+	background-image:url("img/work2.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+}
+#page5 .artwork-1:hover{
+	transform:scale(1.05);
+}
+#page5 .artwork-2:hover{
+	transform:scale(1.05);
+}
+#page5 h2 a{
+	font-size:40px;
+	font-family:Georgia;
+	color:seagreen;
+	text-decoration:none;
 }
 
 #contact{
