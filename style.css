@@ -276,7 +276,7 @@ header #social-media i{
 #social-media{
 	display:flex;
 	gap:15px;
-	margin-left:30px;
+	
 }
 main {
 	height:calc(100% - 252px);
