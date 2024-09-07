@@ -259,6 +259,9 @@ main #photo{
 	background-color:transparent;
 	position:fixed;
 }
+	header{
+		padding:30px 50px 30px 30px;
+	}
 header #name h1{
 	font-family:Georgia;
 	font-size:20px;
