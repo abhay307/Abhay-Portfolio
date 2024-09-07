@@ -223,12 +223,13 @@ main #photo{
 	background-color:#222222;
 }
 #contact h1{
-	font-size:123px;
+	font-size:100px;
 	font-family:Georgia;
 	line-height:1.4;
 }
-#contact h1 span{
+#contact h1 a{
 	font-family:Trebuchet MS ;
+	text-decoration:none;
 }
 #contact p{
 	font-family:Trebuchet MS;
