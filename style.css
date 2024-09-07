@@ -276,6 +276,7 @@ header #social-media i{
 #social-media{
 	display:flex;
 	gap:15px;
+	margin-right:20px;
 	
 }
 main {
