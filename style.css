@@ -255,7 +255,7 @@ main #photo{
 	display:flex;
 	justify-content:start;
 	align-items:center;
-	padding:20px 0px;
+	padding:0px 0px;
 	background-color:transparent;
 	position:fixed;
 }
