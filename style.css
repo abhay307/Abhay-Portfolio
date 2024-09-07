@@ -64,7 +64,7 @@ main #photo{
 	overflow:hidden;
 	text-align:center;
 	z-index:1;
-	background-image:url("img/bannerabhyalast.jpg");
+	background-image:url("img/banner03.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:top ;
@@ -281,6 +281,7 @@ header #social-media i{
 main {
 	height:calc(100% - 252px);
 	width:100%;
+	padding:100px 0px;
 }
 
 main h1{
@@ -346,7 +347,7 @@ main h1 #heck{
 }
 
 #page3{
-	padding:60px 0px;
+	padding:90px 0px;
 }
 
 #page3 h1{
@@ -380,7 +381,7 @@ main h1 #heck{
 	
 }
  #skills-logo img{
-	width:90px;
+	width:80px;
 	object-fit:cover ;
 	background-color:white;
 	padding:10px;
@@ -388,7 +389,7 @@ main h1 #heck{
 }
 #github{
 	object-fit:cover ;
-	width:100px !important; 
+	width:80px !important; 
 }
 
 #page5 {
@@ -402,7 +403,8 @@ main h1 #heck{
 #page5 .artwork{
 	display:flex;
 	flex-direction:column;
-	justify-content:space-between;
+	justify-content:center;
+	align-items:center;
 	gap:50px;
 	padding:60px 0px;
 }
@@ -446,7 +448,7 @@ main h1 #heck{
 	text-align:left;
 }
 #contact h1{
-	font-size:70px;
+	font-size:50px;
 	font-family:Georgia;
 	line-height:1.3;
 }
