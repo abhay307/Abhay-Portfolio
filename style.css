@@ -179,7 +179,7 @@ main #photo{
 #page5 .artwork{
 	display:flex;
 	justify-content:space-between;
-	gap:50px;
+	gap:20px;
 	padding:60px 0px;
 }
 #page5 .artwork-1{
