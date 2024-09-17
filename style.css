@@ -64,7 +64,7 @@ main #photo{
 	overflow:hidden;
 	text-align:center;
 	z-index:1;
-	background-image:url("img/banner03.jpg");
+	background-image:url("img/BANNER.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:top ;
