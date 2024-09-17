@@ -178,6 +178,7 @@ main #photo{
 }
 #page5 .artwork{
 	display:flex;
+	flex-direction: column;
 	justify-content:space-between;
 	gap:20px;
 	padding:60px 0px;
