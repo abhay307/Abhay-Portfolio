@@ -284,7 +284,7 @@ header #social-media i{
 main {
 	height:calc(100% - 252px);
 	width:100%;
-	padding:100px 0px;
+	padding:70px 0px;
 }
 
 main h1{
@@ -357,7 +357,7 @@ main h1 #heck{
 	font-size:25px;
 	font-family:georgia;
 	width:80%;
-	margin:0 auto;
+	margin: 150px auto 0px auto;
 	line-height:40px;
 }
 #page4 {
