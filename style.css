@@ -198,16 +198,52 @@ main #photo{
 }
 #page5 .artwork-2{
 	height:350px;
-	width:650px;
+	width:600px;
 	background-image:url("img/work2.png");
 	background-size:100% 100%;
 	border-radius:20px;
 	transition:1s;
 }
+#page5 .artwork-3{
+	height:350px;
+	width:600px;
+	background-image:url("img/work3.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+	
+}
+#page5 .artwork-4{
+	height:350px;
+	width:600px;
+	background-image:url("img/work4.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+	
+}
+#page5 .artwork-5{
+	height:350px;
+	width:600px;
+	background-image:url("img/work5.png");
+	background-size:100% 100%;
+	border-radius:20px;
+	transition:1s;
+	
+}
 #page5 .artwork-1:hover{
 	transform:scale(1.05);
 }
 #page5 .artwork-2:hover{
+	transform:scale(1.05);
+}
+#page5 .artwork-3:hover{
+	transform:scale(1.05);
+}
+#page5 .artwork-4:hover{
+	transform:scale(1.05);
+}
+#page5 .artwork-5:hover{
 	transform:scale(1.05);
 }
 #page5 h2 a{
