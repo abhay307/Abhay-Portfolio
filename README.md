@@ -7,8 +7,11 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 
 HTML: Structure and content
+
 CSS: Styling and layout
+
 JavaScript: Interactivity and dynamic elements
+
 GSAP: For ScrollTrigger Animations
 
 
@@ -16,16 +19,24 @@ GSAP: For ScrollTrigger Animations
 
 
 Clean, responsive design for all devices
+
 Smooth navigation and interactive elements
+
 Dedicated sections for:
+
 About Me
+
 Skills
+
 Projects
+
 Contact
 
 
 Contact
+
 For any inquiries or feedback, reach out to me at:
+
 📧 [abhaybusiness307@gmail.com]
 
 
