@@ -73,41 +73,18 @@ main #photo{
 	
 	
 }
-#photo h1{
-	font-size:65px;
-	font-family:Georgia;
-	color:white;
-	width:40%;
-	margin:0 auto;
-	background:#0000009e;
-	position:relative;
-	bottom:180px;
-	line-height:55px;
-	text-align:center;
-	padding:15px 20px;
-	display:flex;
-	flex-direction:column;
-}
-#photo h1 span{
-	font-size:65px;
-}
-#photo h1 #span1{
-	font-size:55px;
-	text-align:center;
-	
-}
 
 
 
 #page2{
-	padding:5vw 0vw;
+	padding:0vw 0vw;
 	margin-top:0px;
 	
 }
 #move{
     background-color:seagreen;
     display: flex;
-    padding: 3vw 0;
+    padding: 6vw 0;
     overflow: hidden;
 	
 }
@@ -327,69 +304,58 @@ header #name h1{
 }
 
 header #logo img{
-	width:80px;
+	width:70px;
 	margin-left:20px;
 }
 header #social-media i{
-	font-size:25px;
+	font-size:22px;
 }
 #social-media{
 	display:flex;
-	gap:15px;
-	margin-left:30px;
+	gap:10px;
+	margin-left:0px;
 }
 main {
-	height:calc(100% - 252px);
+	height:100%;
 	width:100%;
-	padding:100px 0px;
+	padding-top:100px;
 }
 
 main h1{
 	display:flex;
 	justify-content:center;
 	font-family:Georgia;
-	font-size:45px;
+	font-size:35px;
 }
 main h1 #heck{
 	color:seagreen;
 }
-
-
-#photo h1{
-	font-size:65px;
-	font-family:Georgia;
-	color:white;
-	width:100%;
-	margin:0 auto;
-	background:#0000009e;
-	position:relative;
-	bottom:145px;
-	line-height:55px;
+main #photo{
+	height:300px;
+	width:300px;
+	margin-top:30px;
+	overflow:hidden;
 	text-align:center;
-	padding:15px 20px;
-	display:flex;
-	flex-direction:column;
-}
-#photo h1 span{
-	font-size:45px;
-}
-#photo h1 #span1{
-	font-size:35px;
-	text-align:center;
-	
+	z-index:1;
+	background-image:url("img/bannerabhyalast.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top ;
+	filter:grayscale(0.55);
 }
 
 #page2{
 	padding:0px 0px;
-	margin-top:80px;
+	margin-top:0px;
+	display:none;
 
 }
 #move{
     background-color:seagreen;
     display: flex;
-    padding: 30px 0;
+    padding: 80px 0;
     overflow: hidden;
-	
+	margin-top:0px;
 }
 #move span{
 	color:seagreen;
@@ -408,6 +374,7 @@ main h1 #heck{
 
 #page3{
 	padding:100px 0px;
+	margin-top:60px;
 }
 
 #page3 h1{
@@ -464,13 +431,13 @@ main h1 #heck{
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
-	gap:50px;
+	gap:20px;
 	padding:60px 0px;
 }
 
 #page5 .artwork-1{
-	height:200px;
-	width:330px;
+	height:100px;
+	width:100px;
 	background-image:url("img/luggage.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -478,8 +445,8 @@ main h1 #heck{
 	
 }
 #page5 .artwork-2{
-	height:200px;
-	width:330px;
+	height:100px;
+	width:100px;
 	background-image:url("img/salon.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -521,8 +488,7 @@ main h1 #heck{
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
@@ -539,7 +505,7 @@ main h1 #heck{
 	text-align:left;
 }
 #contact h1{
-	font-size:70px;
+	font-size:20px;
 	font-family:Georgia;
 	line-height:1.3;
 }
@@ -795,8 +761,7 @@ main #photo{
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
@@ -924,33 +889,10 @@ main #photo{
 	
 }
 
-#photo h1{
-	font-size:65px;
-	font-family:Georgia;
-	color:white;
-	width:100%;
-	margin:0 auto;
-	background:#0000009e;
-	position:relative;
-	bottom:145px;
-	line-height:55px;
-	text-align:center;
-	padding:15px 20px;
-	display:flex;
-	flex-direction:column;
-}
-#photo h1 span{
-	font-size:45px;
-}
-#photo h1 #span1{
-	font-size:35px;
-	text-align:center;
-	
-}
 
 #page2{
 	padding:0px 0px;
-	margin-top:380px;
+	
 
 
 }
@@ -1093,8 +1035,7 @@ main #photo{
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
@@ -1681,8 +1622,7 @@ main #photo{
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
@@ -1809,14 +1749,14 @@ main #photo{
 
 #page2{
 	padding:0px 0px;
-	margin-top:200px;
+	margin-top:280px;
 
 
 }
 #move{
     background-color:seagreen;
     display: flex;
-    padding: 30px 0;
+    padding:40px 0;
     overflow: hidden;
 	
 }
@@ -1891,17 +1831,17 @@ main #photo{
 }
 #page5 .artwork{
 	display:flex;
-	flex-direction:column;
+	flex-direction:row;
 	justify-content:center;
 	align-items:center;
-	gap:50px;
+	gap:60px;
 	padding:60px 0px;
 
 }
 
 #page5 .artwork-1{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/luggage.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -1909,8 +1849,8 @@ main #photo{
 	
 }
 #page5 .artwork-2{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/salon.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -1918,16 +1858,16 @@ main #photo{
 	
 }
 #page5 .artwork-3{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/flufighter.png");
 	background-size:100% 100%;
 	border-radius:20px;
 	transition:1s;
 }
 #page5 .artwork-4{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/ecoarmour.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -1935,8 +1875,8 @@ main #photo{
 	
 }
 #page5 .artwork-5{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/animal.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -1944,16 +1884,15 @@ main #photo{
 	
 }
 #page5 .artwork-6{
-	height:500px;
-	width:1000px;
+	height:300px;
+	width:550px;
 	background-image:url("img/hisight.png");
 	background-size:100% 100%;
 	border-radius:20px;
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
@@ -1970,12 +1909,12 @@ main #photo{
 	text-align:left;
 }
 #contact h1{
-	font-size:70px;
+	font-size:85px;
 	font-family:Georgia;
 	line-height:1.3;
 }
-#contact h1 span{
-	font-family:Trebuchet MS ;
+#contact h1 a{
+	text-decoration:none;
 }
 #contact p{
 	font-family:Trebuchet MS;
@@ -2080,7 +2019,7 @@ main #photo{
 
 #page2{
 	padding:0px 0px;
-	margin-top:200px;
+	margin-top:500px;
 
 
 }
@@ -2223,8 +2162,7 @@ main #photo{
 	transition:1s;
 	
 }
-#page5 .artwork-1 a {
-}
+
 #page5 span{
 	color:seagreen;
 }
