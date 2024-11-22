@@ -394,8 +394,8 @@ main #photo{
 }
 
 #page3{
-	padding:40px 0px;
-	margin-top:60px;
+	padding:40px 0px !important;
+	margin-top:0px !important;
 }
 
 #page3 h1{
