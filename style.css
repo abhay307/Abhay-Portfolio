@@ -352,7 +352,7 @@ main h1 #heck{
 	color:seagreen;
 }
 main #photo{
-	height:300px;
+	height:400px;
 	width:300px;
 	margin-top:30px;
 	overflow:hidden;
@@ -370,27 +370,6 @@ main #photo{
 	margin-top:0px;
 	display:none;
 
-}
-#move{
-    background-color:seagreen;
-    display: flex;
-    padding: 80px 0;
-    overflow: hidden;
-	margin-top:0px;
-}
-#move span{
-	color:seagreen;
-}
-.marque{
-    display: flex;
-    align-items: center;
-    gap : 50px;
-    padding: 0 1.5vw;
-    flex-shrink: 0;
-    transform: translate(-100%);
-}
-.marque h1{
-    font-size: 50px;
 }
 
 #page3{
