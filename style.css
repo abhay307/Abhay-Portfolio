@@ -33,11 +33,12 @@ header #logo img{
 }
 header #social-media i{
 	font-size:40px;
+	padding:5px;
 	
 }
 #social-media{
 	display:flex;
-	gap:15px;
+	gap:10px;
 }
 #social-media a{
 	text-decoration:none;
@@ -74,7 +75,12 @@ main #photo{
 	
 }
 
-
+header #social-media i:hover{
+	color:black;
+	background:white;
+	padding:5px;
+	border-radius:20px;
+}
 
 #page2{
 	padding:0vw 0vw;
@@ -285,7 +291,7 @@ main #photo{
 
 
 
-@media screen and (max-width:480px) and (min-width:320px){
+@media screen and (max-width:480px) and (min-width:120px){
 	header{
 	width:100%;
 	display:flex;
@@ -304,17 +310,30 @@ header #name h1{
 }
 
 header #logo img{
-	width:70px;
+	width:30px;
+	object-fit:cover;
+	height:30px;
 	margin-left:20px;
-}
-header #social-media i{
-	font-size:22px;
+	transform:scale(1.8);
 }
 #social-media{
 	display:flex;
-	gap:10px;
-	margin-left:0px;
+	gap:0px;
+	margin-right:0px;
+	
 }
+
+header #social-media i{
+	font-size:25px;
+		padding:5px;
+}
+header #social-media i:hover{
+	color:black;
+	background:white;
+	padding:5px;
+	border-radius:20px;
+}
+
 main {
 	height:100%;
 	width:100%;
@@ -379,7 +398,7 @@ main #photo{
 
 #page3 h1{
 	text-align:center;
-	font-size:25px;
+	font-size:10px;
 	font-family:georgia;
 	width:80%;
 	margin:0 auto;
@@ -436,8 +455,8 @@ main #photo{
 }
 
 #page5 .artwork-1{
-	height:100px;
-	width:100px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/luggage.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -445,8 +464,8 @@ main #photo{
 	
 }
 #page5 .artwork-2{
-	height:100px;
-	width:100px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/salon.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -454,16 +473,16 @@ main #photo{
 	
 }
 #page5 .artwork-3{
-	height:200px;
-	width:330px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/flufighter.png");
 	background-size:100% 100%;
 	border-radius:20px;
 	transition:1s;
 }
 #page5 .artwork-4{
-	height:200px;
-	width:330px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/ecoarmour.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -471,8 +490,8 @@ main #photo{
 	
 }
 #page5 .artwork-5{
-	height:200px;
-	width:330px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/animal.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -480,8 +499,8 @@ main #photo{
 	
 }
 #page5 .artwork-6{
-	height:200px;
-	width:330px;
+	height:200px !important;
+	width:300px !important;
 	background-image:url("img/hisight.png");
 	background-size:100% 100%;
 	border-radius:20px;
@@ -501,11 +520,11 @@ main #photo{
 }
 
 #contact{
-	padding:40px 20px 20px 50px;
-	text-align:left;
+	padding:40px 10px 10px 10px!important;
+	text-align:center!important;
 }
 #contact h1{
-	font-size:20px;
+	font-size:30px !important;
 	font-family:Georgia;
 	line-height:1.3;
 }
@@ -514,7 +533,7 @@ main #photo{
 }
 #contact p{
 	font-family:Trebuchet MS;
-	font-size:22px;
+	font-size:15px!important;
 	font-weight:700;
 	margin-top:50px;
 	text-align:center;
@@ -532,7 +551,6 @@ main #photo{
 	color:seagreen;
 }
 }
-
 
 
 @media screen and (max-width:600px) and (min-width:480px){
